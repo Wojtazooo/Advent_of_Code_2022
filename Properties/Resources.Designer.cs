@@ -271,6 +271,30 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to gvNbShZZgQfWdQhdPQmggLTFLwmwjFqjVVgM
+        ///CsJnHllcsnnnnJrGRnRwPPLVmFLHLBjFFVHmPT
+        ///JlnCtctJnJDcJlDCRpPrSSQWfphzWZfbZSvfNfbS
+        ///WjvRSdSQjvpjWzNlnZlNZqCCMzZZ
+        ///nJtJsbctPBPwLNcDZNNGLClC
+        ///tsFJHBgJwgJbnvSHHWVWHhVhpQ
+        ///zRzPhCCSHVZzfGHZ
+        ///qBsWBpqBwBcvqqWgdfZrprdggPHHVZ
+        ///WWmvwvBbnWmnwvWcbmWWnqNCRSDRRSSjjSDbPJbRjClLhC
+        ///rQrznfHHhrHzllzlzTGcJgtJ
+        ///jhhjjSZVPWVZvSFtTttLTglgFtvm
+        ///dqSCqVWdbDSSVqbVVSqhNdrnpnCnfsnnwfnsRpMpBMrf
+        ///rTnvrSSHvHtnDQVDtfmW
+        ///ZjCglhcCJschpZbZgbtGmRtbGmwtQtbmtN
+        ///FFZCghFJhlslFpjcdFTPLHHmrqTMTdzBLHLH
+        ///WzDfrDwwDCCD [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string DataDay3 {
+            get {
+                return ResourceManager.GetString("DataDay3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1000
         ///2000
         ///3000
@@ -300,6 +324,20 @@ namespace Advent_of_Code_2022.Properties {
         internal static string ExampleDataDay2 {
             get {
                 return ResourceManager.GetString("ExampleDataDay2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to vJrwpWtwJgWrhcsFMMfFFhFp
+        ///jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+        ///PmmdzqPrVvPwwTWBwg
+        ///wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+        ///ttgJtRGJQctTZtZT
+        ///CrZsJsPPZsGzwwsLwLmpwMDw.
+        /// </summary>
+        internal static string ExampleDataDay3 {
+            get {
+                return ResourceManager.GetString("ExampleDataDay3", resourceCulture);
             }
         }
     }
