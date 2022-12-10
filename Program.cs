@@ -7,6 +7,7 @@
             var days = new List<Day>
             {
                 new Day1(),
+                new Day2(),
             };
             foreach (var day in days)
             {

@@ -160,6 +160,117 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to B Z
+        ///A X
+        ///C X
+        ///C X
+        ///C Z
+        ///C X
+        ///C X
+        ///A Z
+        ///C X
+        ///B Z
+        ///B Z
+        ///C X
+        ///A X
+        ///C X
+        ///C X
+        ///C X
+        ///C Y
+        ///C X
+        ///C Z
+        ///C X
+        ///C X
+        ///C X
+        ///C X
+        ///C X
+        ///C Z
+        ///C X
+        ///C X
+        ///A X
+        ///C X
+        ///B Y
+        ///A X
+        ///B X
+        ///A Z
+        ///C X
+        ///B Y
+        ///A X
+        ///C Z
+        ///C X
+        ///C Z
+        ///A X
+        ///A Y
+        ///B Z
+        ///A Z
+        ///C X
+        ///A Z
+        ///A Z
+        ///A Y
+        ///C Y
+        ///A Y
+        ///A Z
+        ///C X
+        ///A Y
+        ///B Y
+        ///A Z
+        ///B Y
+        ///C Z
+        ///A X
+        ///C X
+        ///C Z
+        ///B Z
+        ///C X
+        ///B Y
+        ///C X
+        ///A Z
+        ///C X
+        ///A X
+        ///C X
+        ///C X
+        ///A Z
+        ///B Z
+        ///C X
+        ///C X
+        ///C Z
+        ///C X
+        ///B X
+        ///C X
+        ///A Z
+        ///A X
+        ///A Y
+        ///A Y
+        ///A Z
+        ///C X
+        ///C Z
+        ///C X
+        ///B Y
+        ///C X
+        ///C X
+        ///A X
+        ///A X
+        ///C Z
+        ///C X
+        ///B X
+        ///C Z
+        ///C X
+        ///C X
+        ///C X
+        ///B Z
+        ///B Y
+        ///A Z
+        ///C X
+        ///A Z
+        ///C X
+        ///C  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string DataDay2 {
+            get {
+                return ResourceManager.GetString("DataDay2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1000
         ///2000
         ///3000
@@ -178,6 +289,17 @@ namespace Advent_of_Code_2022.Properties {
         internal static string ExampleDataDay1 {
             get {
                 return ResourceManager.GetString("ExampleDataDay1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A Y
+        ///B X
+        ///C Z.
+        /// </summary>
+        internal static string ExampleDataDay2 {
+            get {
+                return ResourceManager.GetString("ExampleDataDay2", resourceCulture);
             }
         }
     }
