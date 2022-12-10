@@ -127,6 +127,9 @@
   <data name="DataDay3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DataDay3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="DataDay4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataDay4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="ExampleDataDay1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ExampleDataDay1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
@@ -135,5 +138,8 @@
   </data>
   <data name="ExampleDataDay3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ExampleDataDay3.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ExampleDataDay4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExampleDataDay4.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
 </root>

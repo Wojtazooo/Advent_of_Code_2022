@@ -295,6 +295,56 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 7-7,8-42
+        ///2-95,2-94
+        ///10-54,33-90
+        ///23-24,24-40
+        ///1-48,12-47
+        ///9-27,9-26
+        ///24-33,25-45
+        ///16-26,15-26
+        ///28-38,38-40
+        ///26-27,27-48
+        ///39-97,20-96
+        ///21-73,21-73
+        ///15-28,27-63
+        ///6-91,91-91
+        ///52-80,81-96
+        ///18-99,17-83
+        ///90-97,91-96
+        ///9-91,10-82
+        ///8-97,9-99
+        ///67-73,66-74
+        ///48-63,11-63
+        ///35-90,36-92
+        ///9-94,1-9
+        ///7-10,9-95
+        ///19-46,18-47
+        ///41-82,48-83
+        ///35-81,36-84
+        ///5-92,2-91
+        ///54-94,53-94
+        ///12-27,26-81
+        ///17-26,8-14
+        ///18-84,9-85
+        ///49-64,65-82
+        ///39-84,38-83
+        ///20-65,64-66
+        ///16-95,16-80
+        ///31-36,37-78
+        ///19-71,19-19
+        ///12-90,11-89
+        ///12-47,11-48
+        ///10-11,10-74
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string DataDay4 {
+            get {
+                return ResourceManager.GetString("DataDay4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1000
         ///2000
         ///3000
@@ -338,6 +388,20 @@ namespace Advent_of_Code_2022.Properties {
         internal static string ExampleDataDay3 {
             get {
                 return ResourceManager.GetString("ExampleDataDay3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2-4,6-8
+        ///2-3,4-5
+        ///5-7,7-9
+        ///2-8,3-7
+        ///6-6,4-6
+        ///2-6,4-8.
+        /// </summary>
+        internal static string ExampleDataDay4 {
+            get {
+                return ResourceManager.GetString("ExampleDataDay4", resourceCulture);
             }
         }
     }
