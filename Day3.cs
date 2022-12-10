@@ -14,11 +14,11 @@ public class Day3 : Day
         var exampleRuckSacks = new List<Rucksack>(exampleData.Select(x => new Rucksack(x)));
         var ruckSacks = new List<Rucksack>(data.Select(x => new Rucksack(x)));
 
-        ExamplePart1 = ComputeSumForPart1(exampleRuckSacks);
-        Part1 = ComputeSumForPart1(ruckSacks);
+        ExamplePart1 = ComputeSumForPart1(exampleRuckSacks).ToString();
+        Part1 = ComputeSumForPart1(ruckSacks).ToString();
 
-        ExamplePart2 = ComputeSumForPart2(exampleRuckSacks);
-        Part2 = ComputeSumForPart2(ruckSacks);
+        ExamplePart2 = ComputeSumForPart2(exampleRuckSacks).ToString();
+        Part2 = ComputeSumForPart2(ruckSacks).ToString();
     }
 
     private static int ComputeSumForPart1(IReadOnlyList<Rucksack> rucksacks) =>

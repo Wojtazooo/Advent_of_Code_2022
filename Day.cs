@@ -4,13 +4,13 @@
     {
         public int DayNumber;
 
-        public int ExamplePart1;
+        public string ExamplePart1;
 
-        public int ExamplePart2;
+        public string ExamplePart2;
 
-        public int Part1;
+        public string Part1;
 
-        public int Part2;
+        public string Part2;
 
         protected Day(int dayNumber)
         {

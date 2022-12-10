@@ -9,13 +9,13 @@ namespace Advent_of_Code_2022
         {
             var exampleData = Properties.Resources.ExampleDataDay1.Replace("\r\n", "\n").Split("\n");
             var exampleDataTop3 = GetTopNCalories(exampleData, 3);
-            ExamplePart1 = exampleDataTop3.First();
-            ExamplePart2 = exampleDataTop3.Sum();
+            ExamplePart1 = exampleDataTop3.First().ToString();
+            ExamplePart2 = exampleDataTop3.Sum().ToString();
 
             var data = Properties.Resources.DataDay1.Replace("\r\n", "\n").Split("\n");
             var dataTop3 = GetTopNCalories(data, 3);
-            Part1 = dataTop3.First();
-            Part2 = dataTop3.Sum();
+            Part1 = dataTop3.First().ToString();
+            Part2 = dataTop3.Sum().ToString();
         }
 
         private List<int> GetTopNCalories(string[] data, int n)

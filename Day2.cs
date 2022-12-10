@@ -27,11 +27,11 @@ public class Day2 : Day
         var exampleData = Properties.Resources.ExampleDataDay2.Replace("\r\n", "\n").Split("\n");
         var data = Properties.Resources.DataDay2.Replace("\r\n", "\n").Split("\n");
 
-        ExamplePart1 = FirstPart.SummarizeMoves(exampleData);
-        Part1 = FirstPart.SummarizeMoves(data);
+        ExamplePart1 = FirstPart.SummarizeMoves(exampleData).ToString();
+        Part1 = FirstPart.SummarizeMoves(data).ToString();
 
-        ExamplePart2 = SecondPart.SummarizeMoves(exampleData);
-        Part2 = SecondPart.SummarizeMoves(data);
+        ExamplePart2 = SecondPart.SummarizeMoves(exampleData).ToString();
+        Part2 = SecondPart.SummarizeMoves(data).ToString();
     }
 
     private static int GetPlayerPoints(Move opponentMove, Move playerMove)

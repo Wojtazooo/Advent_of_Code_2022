@@ -13,11 +13,11 @@ public class Day4 : Day
         var exampleAreaPairs = exampleData.Select(ParseAreaPair);
         var areaPairs = data.Select(ParseAreaPair);
 
-        ExamplePart1 = exampleAreaPairs.Count(x => x.OneAreaFullyContainsSecond());
-        Part1 = areaPairs.Count(x => x.OneAreaFullyContainsSecond());
+        ExamplePart1 = exampleAreaPairs.Count(x => x.OneAreaFullyContainsSecond()).ToString();
+        Part1 = areaPairs.Count(x => x.OneAreaFullyContainsSecond()).ToString();
 
-        ExamplePart2 = exampleAreaPairs.Count(x => x.AreasOverlap());
-        Part2 = areaPairs.Count(x => x.AreasOverlap());
+        ExamplePart2 = exampleAreaPairs.Count(x => x.AreasOverlap()).ToString();
+        Part2 = areaPairs.Count(x => x.AreasOverlap()).ToString();
     }
 
     private AreaPair ParseAreaPair(string line)
