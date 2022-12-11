@@ -372,6 +372,15 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to cdhccdbdggfjjgssjzjzggjnjpnpbbzbnzzflfjfnfrrpvrvbrvvrvggvlvnnbrnrcncsnndbndbnndbdndfdrdvrvvndvvbggnrrnbrnntffgttwzwnnmvmcvvhsstzzlnlwlttbzzpnpmnnjvjnntmnmfftwwrfwrwswmmfrrfrrgbrbffwvvshvhrhmhththbbmqbmqqlslhssrmmqdmmjtmtmjtmjtttnwnvwvqwqjjnbbbdbqbnbpnbnllglcglcgcdczdznnqhhfthtmtlldqlqrrmddrldlzdllvddjcddqfqbqsbqqnllwppqpqzzrbbdppzsppjdpdqpdqdfqfrrwbwrwwqcqcsqsvvpbvbbztzptzzpccdtdhdffvqvcvzzmwzwddjfdffplplqlvlmmmvggpmpvpddpbptplpvlplvpvvnrvnnbqqqjhhwfhwfhwhqhmmpphqpqvppfzpzjzddgzzwffjmjggwhwwnnmlmpmmhcmcpcrc [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string DataDay6 {
+            get {
+                return ResourceManager.GetString("DataDay6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1000
         ///2000
         ///3000
@@ -446,6 +455,15 @@ namespace Advent_of_Code_2022.Properties {
         internal static string ExampleDataDay5 {
             get {
                 return ResourceManager.GetString("ExampleDataDay5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw.
+        /// </summary>
+        internal static string ExampleDataDay6 {
+            get {
+                return ResourceManager.GetString("ExampleDataDay6", resourceCulture);
             }
         }
     }
