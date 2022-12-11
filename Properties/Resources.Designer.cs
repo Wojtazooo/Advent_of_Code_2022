@@ -345,6 +345,33 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to [J]             [F] [M]            
+        ///[Z] [F]     [G] [Q] [F]            
+        ///[G] [P]     [H] [Z] [S] [Q]        
+        ///[V] [W] [Z] [P] [D] [G] [P]        
+        ///[T] [D] [S] [Z] [N] [W] [B] [N]    
+        ///[D] [M] [R] [J] [J] [P] [V] [P] [J]
+        ///[B] [R] [C] [T] [C] [V] [C] [B] [P]
+        ///[N] [S] [V] [R] [T] [N] [G] [Z] [W]
+        /// 1   2   3   4   5   6   7   8   9 
+        ///
+        ///move 2 from 4 to 6
+        ///move 1 from 9 to 5
+        ///move 3 from 2 to 4
+        ///move 8 from 4 to 7
+        ///move 2 from 9 to 7
+        ///move 3 from 8 to 3
+        ///move 2 from 1 to 2
+        ///move 5 from 7 to 9
+        ///move 1 from 9 to  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string DataDay5 {
+            get {
+                return ResourceManager.GetString("DataDay5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1000
         ///2000
         ///3000
@@ -402,6 +429,23 @@ namespace Advent_of_Code_2022.Properties {
         internal static string ExampleDataDay4 {
             get {
                 return ResourceManager.GetString("ExampleDataDay4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     [D]    
+        ///[N] [C]    
+        ///[Z] [M] [P]
+        /// 1   2   3 
+        ///
+        ///move 1 from 2 to 1
+        ///move 3 from 1 to 3
+        ///move 2 from 2 to 1
+        ///move 1 from 1 to 2.
+        /// </summary>
+        internal static string ExampleDataDay5 {
+            get {
+                return ResourceManager.GetString("ExampleDataDay5", resourceCulture);
             }
         }
     }
