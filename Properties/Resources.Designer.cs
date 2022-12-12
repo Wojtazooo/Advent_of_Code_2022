@@ -381,6 +381,58 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to $ cd /
+        ///$ ls
+        ///dir bqc
+        ///dir mwmlf
+        ///dir ngn
+        ///143562 nrwjb
+        ///78449 qqvdcclf
+        ///dir qrnm
+        ///dir smfzmmhc
+        ///116085 tvrms
+        ///dir vrdrsj
+        ///$ cd bqc
+        ///$ ls
+        ///5693 qqvdcclf
+        ///$ cd ..
+        ///$ cd mwmlf
+        ///$ ls
+        ///dir cmfphpc
+        ///dir lqqshq
+        ///dir mwmlf
+        ///dir rlf
+        ///dir smfzmmhc
+        ///$ cd cmfphpc
+        ///$ ls
+        ///235620 tprth.gjn
+        ///82743 vrdrsj.fbl
+        ///$ cd ..
+        ///$ cd lqqshq
+        ///$ ls
+        ///94188 crswqlvd.nsj
+        ///dir dttthls
+        ///60078 lbsfsspm
+        ///dir lqp
+        ///74624 nrwjb
+        ///247709 tjhcqw.wrq
+        ///267693 tvrms
+        ///dir zshrcgfn
+        ///$ cd dttthls
+        ///$ ls
+        ///109072 nrwjb
+        ///31512 qqvdcclf
+        ///$ cd ..
+        ///$ cd lqp
+        ///$ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string DataDay7 {
+            get {
+                return ResourceManager.GetString("DataDay7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1000
         ///2000
         ///3000
@@ -459,11 +511,42 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw.
+        ///   Looks up a localized string similar to bvwbjplbgvbhsrlpgdmjqwftvncz.
         /// </summary>
         internal static string ExampleDataDay6 {
             get {
                 return ResourceManager.GetString("ExampleDataDay6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to $ cd /
+        ///$ ls
+        ///dir a
+        ///14848514 b.txt
+        ///8504156 c.dat
+        ///dir d
+        ///$ cd a
+        ///$ ls
+        ///dir e
+        ///29116 f
+        ///2557 g
+        ///62596 h.lst
+        ///$ cd e
+        ///$ ls
+        ///584 i
+        ///$ cd ..
+        ///$ cd ..
+        ///$ cd d
+        ///$ ls
+        ///4060174 j
+        ///8033020 d.log
+        ///5626152 d.ext
+        ///7214296 k.
+        /// </summary>
+        internal static string ExampleDataDay7 {
+            get {
+                return ResourceManager.GetString("ExampleDataDay7", resourceCulture);
             }
         }
     }
