@@ -433,6 +433,20 @@ namespace Advent_of_Code_2022.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 200111110420341122211300354132530435302054046335421000636521353401523010501311544011230232023001001
+        ///001123300003121013211234033001540045254316444345422662334204234115552314354114453103330103243221310
+        ///311210241230024303554001043402121246540040235623146113624001464225403350221302241333122301333010300
+        ///313220143432400213441134141433022322415401210036504124443562330160631024040400414203001430031231101
+        ///102330243131202000523053445134061462231462416310524654563503003141265120040414555415314404230001123
+        ///1202002 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string DataDay8 {
+            get {
+                return ResourceManager.GetString("DataDay8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1000
         ///2000
         ///3000
@@ -547,6 +561,19 @@ namespace Advent_of_Code_2022.Properties {
         internal static string ExampleDataDay7 {
             get {
                 return ResourceManager.GetString("ExampleDataDay7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30373
+        ///25512
+        ///65332
+        ///33549
+        ///35390.
+        /// </summary>
+        internal static string ExampleDataDay8 {
+            get {
+                return ResourceManager.GetString("ExampleDataDay8", resourceCulture);
             }
         }
     }
